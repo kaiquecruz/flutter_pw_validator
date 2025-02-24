@@ -12,11 +12,11 @@ class ValidationBarComponent extends StatelessWidget {
     return Expanded(
       child: new Container(
         /// We Can set, width: double.maxFinite,
-        margin: EdgeInsets.symmetric(horizontal: SizeConfig.width! * 0.005),
-        height: SizeConfig.width! * 0.015,
+        margin: EdgeInsets.symmetric(horizontal: 5),
+        height: 3,
         decoration: new BoxDecoration(
             color: color,
-            borderRadius: BorderRadius.all(Radius.circular(SizeConfig.width!))),
+            borderRadius: BorderRadius.all(Radius.circular(1.5))),
       ),
     );
   }
